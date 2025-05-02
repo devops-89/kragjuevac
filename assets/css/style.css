@@ -12693,9 +12693,21 @@ Copyright (c) 2015 Daniel Eden
 }
 .rts__single--testimonial {
   padding: 40px 25px 40px 40px;
+ 
   background: var(--rt-white);
   height: 520px;
 }
+
+.rts__single--instagram{
+  border-radius: 17px;
+  background: var(--rt-white);
+  height: 520px;
+}
+
+.rts__single--instagram>video{
+  border-radius: 17px;
+}
+
 @media screen and (max-width: 768px) {
   .rts__section--title {
     margin-bottom: 20px;
