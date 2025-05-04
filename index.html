@@ -514,7 +514,7 @@
                         <div class="rts-about-details">
                             <div class="single-about-info">
                                 <div class="content">
-                                    <h3 class="title kusds" id="" >412</h3>
+                                    <h3 class="title kusds" id="number1" >412</h3>
                                     <img src="assets/images/icon/11.svg" alt="">
                                 </div>
                                 <div class="desc ">
@@ -523,7 +523,7 @@
                             </div>
                             <div class="single-about-info">
                                 <div class="content">
-                                    <h3 class="title kusds" id="">1351</h3>
+                                    <h3 class="title kusds" id="number2">1351</h3>
                                     <img src="assets/images/icon/12.svg" alt="">
                                 </div>
                                 <div class="desc ">
@@ -1933,8 +1933,8 @@
         function startAnimation(entries, observer) {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
-                    animateNumber('number1', 0, 15000, 2000);
-                    animateNumber('number2', 0, 1300, 2000);
+                    animateNumber('number1', 0, 412, 2000);
+                    animateNumber('number2', 0, 1351, 2000);
                     animateNumber('number3', 0, 1132, 2000);
                     observer.unobserve(entry.target);
                 }
